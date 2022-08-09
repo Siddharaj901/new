@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "WB FitBasic",
+    "slug": "FitBasic",
+    "privacy": "unlisted",
+    "version": "2.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "requireFullScreen": true,
+      "buildNumber": "3",
+      "bundleIdentifier": "com.wicombit.fitbasic"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "versionCode": 3,
+      "package": "com.wicombit.fitbasic"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
